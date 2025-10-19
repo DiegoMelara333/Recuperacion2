@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Labial Stars</title>
+    <link rel="stylesheet" href="/Css/style3.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-lips"></i>
+            <span class="logo-text">Labial Stars</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+            <li><a href="productos.html" class="active">Productos</a></li>
+             <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Nuestros Productos</h1>
+            <p>Descubre la colección que realzará tu belleza natural</p>
+        </div>
+    </section>
+
+    <!-- Filtros de Productos -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="labiales">Labiales</button>
+                <button class="filter-btn" data-filter="gloss">Gloss</button>
+                <button class="filter-btn" data-filter="brillos">Brillos</button>
+                <button class="filter-btn" data-filter="nuevo">Nuevos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo de Productos -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Producto 1 -->
+                <div class="product-card" data-category="labiales nuevo">
+                    <div class="product-image">
+                        <img src="/Img/fto14.webp" alt="Labial Matte Red">
+                        <span class="new-badge">Nuevo</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Labial Matte Red Passion</h3>
+                        <p class="product-desc">Color intenso con acabado mate que dura hasta 12 horas</p>
+                        <div class="product-price">
+                            <span class="price">$24.08</span>
+                            <span class="old-price">$29.00</span>
+                        </div>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Producto 2 -->
+                <div class="product-card" data-category="gloss">
+                    <div class="product-image">
+                        <img src="/Img/fto13.jpg" alt="Gloss Labial">
+                    </div>
+                    <div class="product-info">
+                        <h3>Gloss Hydra Shine</h3>
+                        <p class="product-desc">Brillo intenso con vitamina E para labios hidratados</p>
+                        <div class="product-price">
+                            <span class="price">$18.00</span>
+                        </div>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Producto 3 -->
+                <div class="product-card" data-category="brillos">
+                    <div class="product-image">
+                        <img src="/Img/fto9.jpg" alt="Brillo Labial">
+                    </div>
+                    <div class="product-info">
+                        <h3>Brillo Crystal Sparkle</h3>
+                        <p class="product-desc">Efecto cristalino con partículas reflectantes</p>
+                        <div class="product-price">
+                            <span class="price">$9.00</span>
+                        </div>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Producto 4 -->
+                <div class="product-card" data-category="labiales">
+                    <div class="product-image">
+                        <img src="/Img/fto10.jpg" alt="Labial Nude">
+                    </div>
+                    <div class="product-info">
+                        <h3>Labial Velvet Nude</h3>
+                        <p class="product-desc">Tonos nude con textura sedosa y cobertura perfecta</p>
+                        <div class="product-price">
+                            <span class="price">$12.00</span>
+                            <span class="old-price">$26.40</span>
+                        </div>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Producto 5 -->
+                <div class="product-card" data-category="labiales nuevo">
+                    <div class="product-image">
+                        <img src="/Img/fto11.jpg" alt="Labial Berry">
+                        <span class="new-badge">Nuevo</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Labial Berry Crush</h3>
+                        <p class="product-desc">Tonos berries con acabado satinado y larga duración</p>
+                        <div class="product-price">
+                            <span class="price">$17.90</span>
+                        </div>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Producto 6 -->
+                <div class="product-card" data-category="gloss">
+                    <div class="product-image">
+                        <img src="/Img/fto12.jpg" alt="Gloss Tinted">
+                    </div>
+                    <div class="product-info">
+                        <h3>Gloss Tinted Bloom</h3>
+                        <p class="product-desc">Gloss con color y efecto volumetrizador</p>
+                        <div class="product-price">
+                            <span class="price">$19.00</span>
+                        </div>
+                        <button class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/js/productos.js"></script>
+</body>
+</html>
